@@ -1,1 +1,56 @@
-/* Write your CSS here! */
+body{
+  margin: 8px;
+  display: block;
+}
+#mainHeading{
+  color: red;
+}
+.funParagraph{
+  color: green;
+}
+#headerul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #headerul li {
+    float: left; 
+  }
+  
+  #headerul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #headerul li a:hover {
+    background-color: #111;
+  }
+  #headerul .active {
+    background-color: #04AA6D;
+  }
+
+#section1, #section2, #section3, #section4, #section5{
+    display:none;
+}
+#section1:target{
+    display:block;
+}
+#section2:target{
+    display:block;
+}
+#section3:target{
+    display:block;
+}
+#section4:target{
+    display:block;
+}
+#section5:target{
+    display:block;
+}
